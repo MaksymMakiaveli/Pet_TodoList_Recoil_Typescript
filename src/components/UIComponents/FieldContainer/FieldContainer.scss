@@ -1,0 +1,10 @@
+.input-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  label {
+    color: rgb(255, 255, 255);
+    margin-bottom: 3px;
+  }
+}

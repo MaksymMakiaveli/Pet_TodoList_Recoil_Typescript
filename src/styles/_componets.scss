@@ -1,0 +1,26 @@
+.rs-modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+}
+.rs-modal-wrapper {
+  .rs-modal {
+    top: 75px;
+    .rs-modal-content {
+      background-color: rgb(41, 40, 51);
+      .rs-modal-header {
+        h4 {
+          font-size: 24px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.input-wrapper {
+  width: 100%;
+}
+
+.button-wrapper {
+  width: 100%;
+}

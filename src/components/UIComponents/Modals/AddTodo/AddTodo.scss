@@ -1,0 +1,30 @@
+.rs-modal.addTodo {
+  .rs-modal-dialog {
+    .rs-modal-content {
+      .rs-modal-body.addTodo__content {
+        form {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          max-width: 300px;
+          margin: 0 auto;
+          .input-wrapper {
+            div:not(:last-child) {
+              margin-bottom: 15px;
+            }
+          }
+        }
+        .button-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 20px;
+          button {
+            flex-basis: 45%;
+          }
+        }
+      }
+    }
+  }
+}
